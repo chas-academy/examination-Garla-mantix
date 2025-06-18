@@ -41,7 +41,6 @@ int main() {
 
 // Function to get input from the user and validate that input
 int get_data(int i) {
-    printf("Enter name and 13 scores for student %d separated by spaces:\n", i + 1);
     int input = scanf("%10s %d %d %d %d %d %d %d %d %d %d %d %d %d",
         name[i], &scores[i][0], &scores[i][1], &scores[i][2], &scores[i][3], &scores[i][4],
         &scores[i][5], &scores[i][6], &scores[i][7], &scores[i][8], &scores[i][9],
